@@ -1,6 +1,6 @@
 # Laravel Project Assessment
 
-This is a Laravel project developed as part of an assessment test. The project includes the following features:
+This is a Laravel project developed as part of an assessment test. The project includes the following spesifications & features:
 
 ## Frameworks & Libraries
 
@@ -66,7 +66,7 @@ cp .env.example .env
 
 Update the .env file with your database and mail configurations.
 
-or simply copy env.my configurations
+or simply copy env.my configurations (you still have to configure your own database server)
 
 ```bash
 cp env.my .env
