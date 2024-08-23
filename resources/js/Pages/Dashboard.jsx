@@ -9,11 +9,7 @@ const Dashboard = (props) => {
 
     // useStates
     const [users, setUsers] = useState([]);
-    const [loading, setLoading] = useState({
-        fetch: true,
-        update: false,
-        delete: false,
-    });
+    const [loading, setLoading] = useState(true);
 
     // functions
     const getUsersData = async () => {
