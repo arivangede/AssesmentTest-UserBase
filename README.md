@@ -47,8 +47,8 @@ Follow the steps below to set up the project:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name
+git clone https://github.com/arivangede/AssesmentTest-UserBase.git
+cd AssesmentTest-UserBase
 ```
 
 2. Install the dependencies:
@@ -66,10 +66,10 @@ cp .env.example .env
 
 Update the .env file with your database and mail configurations.
 
-or simply copy my.env configurations
+or simply copy env.my configurations
 
 ```bash
-cp my.env .env
+cp env.my .env
 ```
 
 4. Generate the application key:
