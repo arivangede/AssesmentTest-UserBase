@@ -93,14 +93,24 @@ php artisan migrate
 
 7. Start the queue worker:
 
+first tab of terminal
+
 ```bash
 php artisan queue:work
 ```
 
 8. Run the development server:
 
+second tab of terminal
+
 ```bash
 php artisan serve
+```
+
+third tab of terminal
+
+```bash
+npm run dev
 ```
 
 ## Usage
